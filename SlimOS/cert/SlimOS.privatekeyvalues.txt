@@ -1,0 +1,32 @@
+Prime number (Bitsize: 512): p 
+============================================================= hex ==== 
+faa96f6f091d924cd9673bb6792eb90057130bfcfa77e08791195c440e63d4e91f9964868251a490f80ce25a83c96f03e31376a3b5d3c70652d167d42d44a557
+
+Prime number (Bitsize: 512): q 
+============================================================= hex ==== 
+da40738910eef260dd651c614d36bb65906c016a565fdfee7d75573e4378234ad0f77d489f923230ce1ac17c9ff76e18c9f798279c4bfb3701c3cd8554f13ab9
+
+Modulus (Bitsize: 1024): n=p*q 
+============================================================= hex ==== 
+d5b36460bbd5874dbb586c2bd8f9222147bf4bae60ccf0b7a78b3da913c3b450b0e01798e179d253d4c47b5a4b48921416543524f6810593f786156f31abc33aa80dfcc86719a4a9c4f77558cc291d10e56dc39fcd1a1a04e1188c886d2fa6ea53055e947ab43ab45216b05b1e9a68d7e75f21c7ef575ba56dc8cfa976f831df
+
+Public exponent: e 
+============================================================= hex ==== 
+10001
+
+Private exponent: d=(e^-1) mod phi 
+============================================================= hex ==== 
+bfe48b913579e33a90ad30cd1ad373ab50c2dd11a3c8c3ab169eb8eab75db7eff133f8dc86339f0339fe8909a6aa6ec9ecd706b5bf48521af15c8ca8c1808c17ddb9001904e7713e23f6e118ff3517a31bcc9c0212ca7da2fb395f10d5bf0a16aa4811b6202f586076f95c52b3116020ea9a8e461a62cfb523542c0ffa27f7d1
+
+Chinese Remainder Theorem (CRT) exponent 1: dP=d mod (p-1) 
+============================================================= hex ==== 
+cdf64f03f37f82e8f67226d486ba6774ea17527069f5fa5e2a51a6489d72564dbf9330d07d604c527a1f4c1687d70a0b2d989e9162244392e49600348d85ac3d
+
+Chinese Remainder Theorem (CRT) exponent 2: dQ=d mod (q-1) 
+============================================================= hex ==== 
+c2d9b3cc754fbf18f7cfe38c8331101156e4f64687a2c4fbd90a3fbf98e0d331626af27139f57dd5d0cc565dfb3b1e12078e834b29e1340122143b9284097211
+
+Chinese Remainder Theorem (CRT) coefficient: qInv=(q^-1) mod p 
+============================================================= hex ==== 
+9b7ceefbcac367c6b12a3fca9a8e0f76d4ca2a83ef8b6db2ae1b03d2fe38dc098393fb311f0dd70be51aa078bd9e4ab214c39db9ecf1ff318c95ada9e366d1d2
+
